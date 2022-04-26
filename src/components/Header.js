@@ -1,7 +1,6 @@
 import {Link} from "gatsby"
 import * as React from "react"
 import styled from "styled-components"
-import { goToCV } from "./utils"
 import { Button } from "./styles/Button"
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
     <Nav>
       <NavLink to="/">IBRAHIM</NavLink>
       <NavBtn>
-        <Button primary="true" round="true" onClick={goToCV}>My Resume</Button>
+        <Button primary="true" round="true" onClick={() => window.open('https://docs.google.com/document/d/1dn8n6Rq0zBwRwsRly8S36JXKuk8DvIL4SFRYUdNdSAk/edit?usp=sharing', '_blank')}>My Resume</Button>
       </NavBtn>
     </Nav>
   )

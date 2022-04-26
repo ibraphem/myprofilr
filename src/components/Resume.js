@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import "../assets/css/resume.css"
 import { Button } from "./styles/Button"
-import { goToCV } from "./utils"
+
 
 const Resume = () => {
 
@@ -81,7 +81,7 @@ const Resume = () => {
             </div>
             
           </div>
-          <Button primary="true" round="true" onClick={goToCV} style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
+          <Button primary="true" round="true" onClick={() => window.open('https://docs.google.com/document/d/1dn8n6Rq0zBwRwsRly8S36JXKuk8DvIL4SFRYUdNdSAk/edit?usp=sharing', '_blank')} style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
         </div>
         
       </div>
