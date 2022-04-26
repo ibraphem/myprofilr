@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import "../assets/css/resume.css"
 import { Button } from "./styles/Button"
-import { goToCV } from "../utils"
+import { goToCV } from "./utils"
 
 const Resume = () => {
 

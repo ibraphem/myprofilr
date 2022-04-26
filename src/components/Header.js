@@ -1,7 +1,7 @@
 import {Link} from "gatsby"
 import * as React from "react"
 import styled from "styled-components"
-import { goToCV } from "../utils"
+import { goToCV } from "./utils"
 import { Button } from "./styles/Button"
 
 const Header = () => {
