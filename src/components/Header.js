@@ -1,14 +1,16 @@
 import {Link} from "gatsby"
 import * as React from "react"
 import styled from "styled-components"
+import { goToCV } from "../utils"
 import { Button } from "./styles/Button"
 
 const Header = () => {
+
   return (
     <Nav>
       <NavLink to="/">IBRAHIM</NavLink>
       <NavBtn>
-        <Button primary="true" round="true" to="/trips">My Resume</Button>
+        <Button primary="true" round="true" onClick={goToCV}>My Resume</Button>
       </NavBtn>
     </Nav>
   )

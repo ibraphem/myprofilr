@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import "../assets/css/resume.css"
 import { Button } from "./styles/Button"
+import { goToCV } from "../utils"
 
 const Resume = () => {
 
@@ -17,7 +18,6 @@ const Resume = () => {
           {experience: "Handled the frontend development for the migration of legacy sytems built on MVC into microservices."},
           {experience: "Collaborated with the backend engineers to deliver a self onboarding system for customers."},
           {experience: "Developed a checkin system to ensure sales representative attendance at the store of assignment."},
-          {experience: "Developed the mobile version of the main customer onboarding app with React Native."},
           
         ]
 
@@ -81,7 +81,7 @@ const Resume = () => {
             </div>
             
           </div>
-          <Button primary="true" round="true" style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
+          <Button primary="true" round="true" onClick={goToCV} style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
         </div>
         
       </div>

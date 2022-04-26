@@ -32,6 +32,11 @@ export const SkillsList = [
 
     },
     {
+        icon: (<SiRedux/>),
+        title: "Redux",
+        color: "#663399"
+    },
+    {
         icon: (<SiFirebase/>),
         title: "Firebase",
         color: "#ffca2a"
@@ -53,12 +58,6 @@ export const SkillsList = [
         icon: (<DiGit/>),
         title: "Git",
         color: "#f05033"
-
-    },
-    {
-        icon: (<SiDocker/>),
-        title: "Docker",
-        color: "#2496ed"
 
     },
     {
