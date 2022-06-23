@@ -81,7 +81,7 @@ const Resume = () => {
             </div>
             
           </div>
-          <Button primary="true" round="true" onClick={() => window.open('https://docs.google.com/document/d/1dn8n6Rq0zBwRwsRly8S36JXKuk8DvIL4SFRYUdNdSAk/edit?usp=sharing', '_blank')} style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
+          <Button primary="true" round="true" onClick={() => window.open('https://drive.google.com/file/d/16P4EmwIPtELAJqU6PVO6ywE8SqmacXoM/view?usp=sharing', '_blank')} style={{color:"#fff", zIndex:100, width:"200px"}}>Complete Resume</Button>
         </div>
         
       </div>
