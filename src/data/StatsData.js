@@ -1,6 +1,6 @@
 import React from "react";
 import {DiGit} from "react-icons/di";
-import {SiTypescript, SiFirebase, SiGatsby, SiDocker, SiPhp, SiLaravel, SiNetlify, SiNextdotjs, SiJavascript, SiRedux, SiMysql, SiMaterialui, SiStyledcomponents} from "react-icons/si";
+import {SiTypescript, SiFirebase, SiGatsby, SiDocker, SiPhp, SiLaravel, SiNetlify, SiVuetify, SiJavascript, SiRedux, SiMysql, SiMaterialui, SiStyledcomponents} from "react-icons/si";
 import {GrGraphQl} from "react-icons/gr";
 import {FaReact, FaVuejs} from "react-icons/fa"; 
 import {DiJqueryUiLogo} from "react-icons/di";
@@ -49,9 +49,9 @@ export const SkillsList = [
 
     },
     {
-        icon: (<SiNextdotjs/>),
-        title: "Nextjs",
-        color: "#000"
+        icon: (<FaVuejs/>),
+        title: "Vuejs",
+        color: "#42b883"
 
     },
     {
@@ -85,18 +85,6 @@ export const portfolioData =
 
 
 [
-    {
-        info: "The ABC game is a simple game developed to assist toddlers identify the English alphabets properly with recognition to some words associated with it. Something I did in my spare time with react typescript.",
-        title: "ABC Game",
-        link: "https://abcgame.netlify.app/",
-        tools: [
-           { icon: (<FaReact color="#61dafb"/>)},
-           {icon: (<SiTypescript color="#3178c6"/>)},
-           {icon: (<SiStyledcomponents color="#e79479"/>)},
-           {icon: (<SiNetlify color="#3cacb8"/>)},
-            
-        ]
-    },
     {
         info: "Finance One is a core finance software with multiple integration with financiers, telcos, insurance, OEMs and other partners instrumental for the management of a device financing project.",
         title: "Finance One",
@@ -145,7 +133,7 @@ export const portfolioData =
         info: "The legal certificate registry is a certificate chamber for a legal office to manage certificates inventory. It keep tabs on expiration and released date and monitors renewals and retrievals.",
         title: "Legal Certificate Registry",
         tools: [
-            { icon: (<FaReact color="#61dafb"/>)},
+            {icon: (<FaVuejs color="#3fb984"/>)},
             { icon: (<SiLaravel color="#f45343"/>)},
             {icon: (<SiMaterialui color="#0081cb"/>)},
             {icon: (<SiJavascript color="#f7df1e"/>)},
@@ -165,10 +153,22 @@ export const portfolioData =
         info: "I was contracted to develop a school result management system for a senior senior secondary to manage and make accessible student continous assesment and examination records. ",
         title: "Result Checker",
         tools: [
-            { icon: (<FaReact color="#61dafb"/>)},
+            {icon: (<FaVuejs color="#3fb984"/>)},
             { icon: (<SiLaravel color="#f45343"/>)},
             {icon: (<SiMaterialui color="#0081cb"/>)},
             {icon: (<SiJavascript color="#f7df1e"/>)},
+        ]
+    },
+    {
+        info: "The ABC game is a simple game developed to assist toddlers identify the English alphabets properly with recognition to some words associated with it. Something I did in my spare time with react typescript.",
+        title: "ABC Game",
+        link: "https://abcgame.netlify.app/",
+        tools: [
+           { icon: (<FaReact color="#61dafb"/>)},
+           {icon: (<SiTypescript color="#3178c6"/>)},
+           {icon: (<SiStyledcomponents color="#e79479"/>)},
+           {icon: (<SiNetlify color="#3cacb8"/>)},
+            
         ]
     },
     {
